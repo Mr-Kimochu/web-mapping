@@ -1,0 +1,90 @@
+    
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+        }
+
+        #header {
+            background-color: #EDCD26;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            text-align: center;
+           
+
+        }
+
+        #header ul li {
+            display: inline-flex;
+            list-style: none;
+            width: 100px;
+            margin: 15px;
+            padding: 15px;
+        }
+
+       
+
+        #header nav-bar ul li a {
+            display: block;
+            color: #fefefe;
+            font-size: 20px;
+            padding: 10px 25x;
+            border-radius: 50px;
+            transition: 0.2s;
+            margin: 0 5px;
+            text-align: center;
+            display: inline-flex;
+        }
+
+
+        #menu {
+            background-color: #65A533;
+            color: #fff;
+            padding: 10px;
+        }
+       
+        #side-pane {
+            width: 250px;
+            background-color: #81CB47;
+            float: left;
+            padding: 20px;
+        }
+
+        #side-pane h1 {
+            color: #E0D820; 
+            font-style: italic; 
+        }
+
+        #map {
+            width: 77%;
+            height: 450px;
+            float: right;
+        }
+
+        #footer {
+            background-color: #60AF22;
+            color: #fff;
+            padding: 10px;
+            clear: both;
+            position: relative;
+            text-align: center;
+        }
+
+        #footer-line {
+        width: 100%;
+        height: 4px;
+        background-color: yellow;
+    }
+         /* Media query for screens smaller than 768px (typical mobile screens) */
+        @media (max-width: 768px) {
+            #side-pane {
+                width: 100%; /* Take up the full width */
+                float: none; /* Remove the float */
+            }
+
+            #map {
+                width: 100%; /* Take up the full width */
+            }    
+        }
